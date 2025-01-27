@@ -22,5 +22,6 @@ print("Accessing element from nested list: ", l7[3][1])
 l8 = [10, 20, 30, 40, 50, 60]
 print("List slicing: ", l8[2 : 5])
 
-l9 = [0, 1, 2, 3, 4, 5]
+l9 = [0, 1, 2, 3, 4, 5, [10, 20, 30]]
 print("Length of list: ", len(l9))
+print("Slice the sublist: ", l9[6][1:3])
