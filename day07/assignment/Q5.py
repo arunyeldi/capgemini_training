@@ -12,7 +12,6 @@ class Employee(ABC):
 class Manager(Person, Employee):
     def __init__(self, name, salary):
         self.name = name  
-        
         self.salary = salary
 
     def get_name(self):
