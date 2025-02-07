@@ -5,6 +5,7 @@ def my_decorator(func):
         time.sleep(1)
         print("Before the function call")
         result = func(*args, **kwargs)
+        
         print("After the function call")
         time.sleep(1)
         return result
@@ -13,5 +14,6 @@ def my_decorator(func):
 @my_decorator
 def greet(name):
     print(f"Hello, {name}!")
+    
 
 greet("Arun")
